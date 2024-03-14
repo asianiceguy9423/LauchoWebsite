@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/body.css">
+  <script src="JavaScript/body.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <div class="close_btn" onclick="hideSidebar()"><img class="close_icon" src="icons/close_FILL0_wght400_GRAD0_opsz24.svg"></div>
+      <li><a href="#">關於昭翰</a></li>
+      <li><a href="#">團隊介紹</a></li>
+      <li><a href="#">法律資訊</a></li>
+      <li><a href="#">聯絡我們</a></li>    
+    </ul> 
+  
+    <ul>
+      <div class="leftSide"><a href="#"><img src="images/youtube-logo.svg"></a></div>
+      <div class="rightSide">
+        <li class="hideOnMobile"><a href="#">關於昭翰</a></li>
+        <li class="hideOnMobile"><a href="#">團隊介紹</a></li>
+        <li class="hideOnMobile"><a href="#">法律資訊</a></li>
+        <li class="hideOnMobile"><a href="#">聯絡我們</a></li>
+        <li class="menu_btn" onclick="showSidebar()"><a href="#"><img class="menu_icon" src="icons/menu_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+      </div>
+      
+    </ul>
+  </nav>
+
+    <div class="Home_body">
+      <div class="first_page">
+        <img class="first_page_image" src="images/home_pic.png" data-aos="fade-zoom-in">
+        <div class="text_div">
+          <p class="text_up">昭翰為您護航</p>
+          <p class="text_down">立即預約</p>
+        </div>        
+      </div>
+
+      <div class="secound_page">
+        <p class="title" data-aos="fade-zoom-in">
+          服務項目</p>
+        <div class="case_container" data-aos="fade-up"
+          data-aos-duration="1500">
+          <div class="case_all">
+            <div class="case" onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)">
+              <div class="case_indder">
+                <img class="case_image" src="images/case_icon.png">
+                <p class="case_title">民事案件</p>
+                <p class="case_text"></p>
+              </div>
+            </div>
+            
+            <div class="case" onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)">
+              <div class="case_indder">
+                <img class="case_image" src="images/case_icon.png">
+                <p class="case_title">民事案件</p>
+                <p class="case_text"></p>
+              </div>
+            </div>
+
+            <div class="case" onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)">
+              <div class="case_indder">
+                <img class="case_image" src="images/case_icon.png">
+                <p class="case_title">民事案件</p>
+                <p class="case_text"></p>
+              </div>
+            </div>
+
+            <div class="case" onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)">
+              <div class="case_indder">
+                <img class="case_image" src="images/case_icon.png">
+                <p class="case_title">民事案件</p>
+                <p class="case_text"></p>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+      <div class="third_page">
+        <div class="third_div">
+          <div class="image_ddiv">
+            <img class="third_image" src="images/home_third_pic.png"  data-aos="fade-right">
+          </div>
+          
+          <div class="third_text_all" data-aos="fade-left">
+            <p class="third_text1">線上法律諮詢</p>
+            <p class="third_text2">這裡是民事案件解說這裡是民事案件解說這裡是民事案件</p>
+            <p class="third_text3">免費諮詢</p>
+          </div>
+        </div>        
+      </div>
+    </div>
+
+<script>
+  AOS.init({
+    duration: 3000,
+    once: false,
+  });
+</script>
+</body>
+</html>
