@@ -82,15 +82,14 @@
     margin-bottom: 15px;
     color: rgb(174, 151, 88);
   }
-  .page2 a{
+  .page2 a,
+  .page2 p{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     color: black;
     font-weight: 400;
     transition: 0.4s;
-  }
-  .page2 .line_link{
     margin-top: -5px;
     margin-left: -10px;
   }
