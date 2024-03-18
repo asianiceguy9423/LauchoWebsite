@@ -145,6 +145,9 @@
 .page2 button:hover{
   background: rgb(214, 185, 105);
 }
+.page2 .btn_a:hover{
+  border-style: none; 
+}
 .page2 .under_text{
   text-align: left;
   width: 100%;
