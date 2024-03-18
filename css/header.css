@@ -144,6 +144,9 @@ nav .sdropdown{
 
 
 /*--這是footer--*/
+.footer a{
+  text-decoration: none;
+}
 .footer{
   width: 100%;
   background-color: rgb(71, 88, 94);
